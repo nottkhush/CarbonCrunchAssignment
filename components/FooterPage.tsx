@@ -37,7 +37,7 @@ const FooterPage = () => {
           <a href="#">Explore</a>
           <a href="#">Marketplace</a>
           <a href="#">Artists</a>
-          <a href="/contact">Contact</a>
+          <a href="/contact">Contact Us</a>
         </nav>
 
         {/* Social icons */}
