@@ -31,7 +31,7 @@ const FooterPage = () => {
             flex flex-col sm:flex-row
             items-center
             gap-4 sm:gap-8 lg:gap-[75px]
-            text-[16px]
+            text-[16px] md:justify-center md:w-full
           `}
         >
           <a href="#">Explore</a>
