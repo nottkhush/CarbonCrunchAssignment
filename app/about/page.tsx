@@ -93,7 +93,7 @@ const MissionVisionSection: React.FC = () => (
             Our Vision
           </h2>
           <p className="text-[16px] lg:text-[18px] text-white/80 leading-relaxed">
-            To become the world's most trusted NFT marketplace, where every transaction is transparent and every artist is empowered.
+            To become the world&apos;s most trusted NFT marketplace, where every transaction is transparent and every artist is empowered.
           </p>
         </div>
       </div>
