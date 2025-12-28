@@ -8,7 +8,6 @@ type ArtCardProps = {
   collection?: string;
 };
 
-
 export const ArtCard = ({
   name,
   image,
@@ -18,13 +17,14 @@ export const ArtCard = ({
   return (
     <div>
       {/* Meta */}
-      <div className="mb-3 flex items-center justify-between">
-        <div>
-          <p className="text-[28px] font-medium">{name}</p>
+      <div className="mb-3  ">
+        <p className="text-[28px] font-medium">{name}</p>
+        <div className="flex justify-between items-center">
           <p className="text-[12px]">{collection}</p>
+          <span className={`${poppins.className} text-[16px] text-[#DD24E1]`}>
+            {price}
+          </span>
         </div>
-
-        <span className={`${poppins.className} text-[16px] text-[#DD24E1]`}>{price}</span>
       </div>
 
       {/* Image */}

@@ -15,7 +15,7 @@ export const Navbar = () => {
             height={31}
             priority
           />
-          <div className="bg-none w-[491px] h-[48px] flex items-center justify-between px-8">
+          <div className="bg-none w-[550px] h-[48px] flex items-center justify-between px-8">
             <Link href="/about">About Us</Link>
             <Link href="/">Store</Link>
             <Link href="/">Games</Link>

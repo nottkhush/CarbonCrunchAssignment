@@ -1,10 +1,13 @@
 import { poppins } from "@/app/layout";
 import { Navbar } from "@/components/Navbar";
+import { SkewedButton } from "@/components/SkewedButton";
 import Image from "next/image";
 
 export const Page1 = () => {
   return (
     <>
+      
+
       <Navbar />
       <div className="grid grid-cols-2">
         <div className="w-127.5  mt-25.5">
@@ -17,12 +20,7 @@ export const Page1 = () => {
             Create, Explore, & Collect Digital Art NFTs
           </p>
           <div className="mt-[59px]">
-            <button
-              className="bg-red-500 text-[20px] w-[224px] h-[59px] font-[600] rounded-xl bg-gradient-to-b from-fuchsia-500 to-purple-800
-"
-            >
-              EXPLORE
-            </button>
+            <SkewedButton text="EXPLORE" />
           </div>
           <div className="mt-[164px] flex justify-between">
             <div className="flex flex-col">
@@ -47,7 +45,7 @@ export const Page1 = () => {
             </div>
           </div>
         </div>
-        <div className="w-[545.03px] h-[653px]  mt-[105px]">
+        <div className="w-[545.03px] h-[653px] mt-[105px] ml-[31px]">
             <Image src="/heroimagewrapper.svg" alt="image" width={545.03} height={653} />
         </div>
       </div>

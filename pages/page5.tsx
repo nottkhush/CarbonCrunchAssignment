@@ -1,3 +1,4 @@
+import { SkewedButton } from "@/components/SkewedButton";
 import Image from "next/image";
 
 export const Page5 = () => {
@@ -24,12 +25,7 @@ export const Page5 = () => {
             Join the community and get the best NFT collection
           </h2>
           <div className="mt-[62px]">
-            <button
-              className="bg-red-500 text-[20px] w-[224px] h-[59px] font-[600] rounded-xl bg-gradient-to-b from-fuchsia-500 to-purple-800
-"
-            >
-              JOIN COMMUNITY
-            </button>
+            <SkewedButton text="JOIN COMMUNITY"/>
           </div>
         </div>
       </div>
