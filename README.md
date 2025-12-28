@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UI Engineering Assignment – Landing Page Recreation
 
-## Getting Started
+This project is a **UI-focused implementation** of a landing page based on a provided Figma design. The goal was to **recreate the UI as accurately as possible**, ensure **strong responsiveness across devices**, and extend the design system by adding additional pages — all using **modern frontend best practices**.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Live Demo
+
+🔗 **Live Preview:** [https://carbon-crunch-assignment-kappa.vercel.app/]
+
+---
+
+## 📂 Repository
+
+🔗 **GitHub Repository:** https://github.com/your-username/project-name
+
+---
+
+## 🧩 Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Fonts & Assets:** As per Figma design
+- **Deployment:** Vercel
+
+---
+
+## 🎯 Project Objective
+
+The assignment focused on three key areas:
+
+### 1️⃣ Exact UI Replication
+- Pixel-accurate layout matching the Figma design
+- Correct typography, spacing, colors, and hierarchy
+- Clean and maintainable UI component structure
+- No backend logic — UI engineering only
+
+### 2️⃣ Responsive Design (Critical)
+The UI is fully responsive and optimized for:
+- **Desktop**
+- **Tablet**
+- **Mobile**
+
+Key responsiveness decisions include:
+- Fluid layouts with flexible containers
+- Typography scaling for smaller screens
+- Spacing and padding adjustments per breakpoint
+- Logical section stacking for mobile usability
+
+> Since no mobile design was provided, responsiveness was handled thoughtfully based on UX best practices.
+
+### 3️⃣ Additional Pages (Design Extension)
+To demonstrate scalability of the design system, I added **additional pages** while maintaining visual consistency:
+
+- **About Page** – Brand/product overview
+- **Contact Page** – Allows you to contact the team 
+*(Store, Games, and Connect Wallet sections were intentionally removed as allowed)*
+
+---
+
+## 📄 Pages Implemented
+
+- `/` – Landing Page (Figma recreation)
+- `/about` – About Page
+- `/contact` – Contact Page
+
+---
+
+## 🖼️ Responsive Screenshots
+
+Screenshots are included in the repository under `/screenshots`:
+
+- ✅ Desktop view  
+- ✅ Tablet view  
+- ✅ Mobile view  
+
+---
+
+## 🛠️ Setup & Installation
+
+Follow these steps to run the project locally:
+
+
+# Clone the repository
+git clone https://github.com/your-username/project-name.git
+
+# Navigate into the project
+cd project-name
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
