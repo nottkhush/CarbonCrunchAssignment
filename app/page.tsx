@@ -10,14 +10,24 @@ import { FooterPage } from "@/components/FooterPage";
 export default function Home() {
   return (
     <>
-      <div className={`${clashDisplay.className} w-full pl-33.5 pr-[120px] pt-9 pb-4`}>
+      <div
+        className={`
+          ${clashDisplay.className}
+          w-full
+          px-4 pt-6 pb-4           
+          sm:px-6                  
+          lg:pl-33.5 lg:pr-[120px] lg:pt-9 lg:pb-4   
+          xl:pl-33.5 xl:pr-[160px] xl:pt-9 xl:pb-4
+        `}
+      >
         <Page1 />
         <Page2 />
         <Page3 />
         <Page4 />
         <Page5 />
       </div>
-      <FooterPage/>
+
+      <FooterPage />
     </>
   );
 }
