@@ -2,7 +2,7 @@ import { poppins } from "@/app/layout";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
-export const Page2 = () => {
+const Page2 = () => {
   return (
     <div
       className="
@@ -91,3 +91,5 @@ export const Page2 = () => {
     </div>
   );
 };
+
+export default Page2;

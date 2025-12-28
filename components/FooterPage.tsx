@@ -1,14 +1,14 @@
 import { poppins } from "@/app/layout";
 import { Instagram, Facebook, Twitter } from "lucide-react";
 
-export const FooterPage = () => {
+const FooterPage = () => {
   return (
     <footer
       className="
         mt-24 sm:mt-32 lg:mt-[200px]
         w-full bg-white/10
         px-4 sm:px-6
-        lg:pl-33.5 lg:pr-33.5 md:place-items-center
+        lg:pl-33.5 lg:pr-33.5 
       "
     >
       {/* Top row */}
@@ -72,3 +72,5 @@ export const FooterPage = () => {
     </footer>
   );
 };
+
+export default FooterPage;

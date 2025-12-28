@@ -8,7 +8,7 @@ const artists = [
   { name: "Erick Butler", image: "/artists/Erick.jpg" },
 ];
 
-export const Page4 = () => {
+const Page4 = () => {
   return (
     <section className="mt-24 sm:mt-32 lg:mt-[135px]">
       {/* Header */}
@@ -57,3 +57,5 @@ export const Page4 = () => {
     </section>
   );
 };
+
+export default Page4;

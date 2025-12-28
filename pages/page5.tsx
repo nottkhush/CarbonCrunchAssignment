@@ -1,7 +1,7 @@
 import { SkewedButton } from "@/components/SkewedButton";
 import Image from "next/image";
 
-export const Page5 = () => {
+const Page5 = () => {
   return (
     <div
       className="
@@ -47,3 +47,5 @@ export const Page5 = () => {
     </div>
   );
 };
+
+export default Page5;

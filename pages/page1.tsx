@@ -3,7 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { SkewedButton } from "@/components/SkewedButton";
 import Image from "next/image";
 
-export const Page1 = () => {
+const Page1 = () => {
   return (
     <>
       {/* ================= BACKGROUND ================= */}
@@ -167,3 +167,5 @@ export const Page1 = () => {
     </>
   );
 };
+
+export default Page1;

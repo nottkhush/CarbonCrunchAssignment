@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 
 import Image from "next/image";
 
-export const Page3 = () => {
+const Page3 = () => {
   return (
     <>
    
@@ -76,3 +76,5 @@ export const Page3 = () => {
     </>
   );
 };
+
+export default Page3;
