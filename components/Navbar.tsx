@@ -16,7 +16,7 @@ export const Navbar = () => {
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Image
-          src="/union.svg"
+          src="/Union.svg"
           alt="Company Logo"
           width={36}
           height={31}
@@ -29,7 +29,7 @@ export const Navbar = () => {
           <Link href="/about">About Us</Link>
           <Link href="/">Store</Link>
           <Link href="/">Games</Link>
-          <WhiteButton text="Connect Wallet" />
+          <WhiteButton text="Contact Us" onClick={() => {redirect("/contact")}} />
         </div>
 
         {/* Mobile / Tablet Hamburger ONLY */}
