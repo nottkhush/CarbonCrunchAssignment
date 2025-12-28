@@ -6,13 +6,13 @@ This project is a **UI-focused implementation** of a landing page based on a pro
 
 ## 🚀 Live Demo
 
-🔗 **Live Preview:** [https://carbon-crunch-assignment-kappa.vercel.app/]
+🔗 **Live Preview:** https://carbon-crunch-assignment-kappa.vercel.app/
 
 ---
 
 ## 📂 Repository
 
-🔗 **GitHub Repository:** https://github.com/your-username/project-name
+🔗 **GitHub Repository:** https://github.com/nottkhush/CarbonCrunchAssignment/
 
 ---
 
@@ -83,10 +83,10 @@ Follow these steps to run the project locally:
 
 
 # Clone the repository
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/nottkhush/CarbonCrunchAssignment/
 
 # Navigate into the project
-cd project-name
+cd carbon-crunch-assignment
 
 # Install dependencies
 npm install
